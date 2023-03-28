@@ -1,3 +1,7 @@
+import numpy as np
+import torch
+import torch.nn.functional as F
+
 def mmd_rbf(source, target, kernel_mul=2.0, kernel_num=5, fix_sigma=None):
     '''
     计算MMD距离，使用RBF核函数
