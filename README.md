@@ -1,4 +1,4 @@
-# Universal-KL-JS-divergence
+# Universal-MMD-KL-JS-divergence
 An universal implementation for KL/JS divergence calculation even if the dimensions between source domain and target domain are inconsistent.
 
 Also apply an universal implementation for mmd distance calculation even if the dimensions between source domain and target domain are inconsistent.
